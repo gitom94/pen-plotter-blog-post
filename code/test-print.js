@@ -16,10 +16,10 @@ export default function createPlot (context, dimensions) {
 
   // ... Your algorithmic code usually goes here. ...
   // Draw some circles expanding outward
-  const steps = 5;
+  const steps = 13;
   const count = 20;
-  const spacing = 1;
-  const radius = 2;
+  const spacing = 4;
+  const radius = 9;
   for (let j = 0; j < count; j++) {
     const r = radius + j * spacing;
     const circle = [];
